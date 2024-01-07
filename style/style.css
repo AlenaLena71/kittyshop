@@ -1,0 +1,110 @@
+﻿body{
+    font-family: "pobeda-bold1";
+}
+.navbar{
+    background: #000000;
+}
+.nav-link, .navbar-brand{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 1em;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    background: #f4f4f4;
+    color:#000000;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background: #fff !important;
+}
+#brandlogo{
+    height: 50px;
+}
+#headerInside{
+    color:#fff;
+    padding-top: 30px;
+}
+.wrapper{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.wrapper-good{
+    display: inline-block;
+    align-content: center;
+    margin: 100px;
+    background-color: #fff;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+}
+#openedProduct-img{
+    margin:30px;
+
+}
+
+
+.description{
+    position:absolute;
+    top:30%;
+    margin:auto;
+    padding:2em;
+}
+
+.description h1{
+    color:#000000;
+}
+.description p{
+    color: #666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.2;
+}
+.description button{
+    border: 1px solid #000000;
+    background: #000000;
+    color: #fff;
+}
+#shopUnit{
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Размещаем элементы в колонку */
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+    background-color: white;
+  }
+  #shopUnit:hover {
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .shopUnitName, .shopUnitShortDesc, .shopUnitPrice, .shopUnitMore{
+    padding: 15px;
+  }
+  #goodsImage{
+    height: 200px;
+  }
+  #Product-img{
+    height: 200px;width: 200px;
+  }
+  #openedProduct-content{
+    display: inline-block;
+    flex-direction: column;
+    margin:30px;
+  }
+  #profilefooter, #pricefooter, #contactfooter, #profilefooter{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+@font-face {
+    font-family: "pobeda-bold1"; 
+    src: url("../fonts/pobeda-bold1.ttf");  
+  } 
